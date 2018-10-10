@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RollSheet">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/str2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STR" />
+
+        <TextView
+            android:id="@+id/str2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dex2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEX" />
+
+        <TextView
+            android:id="@+id/dex2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/con2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CON" />]
+
+        <TextView
+            android:id="@+id/con2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/int2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INT" />
+
+        <TextView
+            android:id="@+id/int2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/wis2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WIS" />
+
+        <TextView
+            android:id="@+id/wis2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/cha2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/cha2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/prof2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proficiency" />
+
+        <TextView
+            android:id="@+id/prof2Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:onClick="launchEditor"/>
+
+</TableLayout>
