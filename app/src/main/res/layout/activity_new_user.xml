@@ -1,18 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NewUser">
 
-    <TextView
+    <TableRow>
+
+        <TextView
+            android:id="@+id/strLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STR" />
+
+        <EditText
+            android:id="@+id/strValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dexLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEX" />
+
+        <EditText
+            android:id="@+id/dexValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/conLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CON" />
+
+        <EditText
+            android:id="@+id/conValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/intLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INT" />
+
+        <EditText
+            android:id="@+id/intValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/wisLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WIS" />
+
+        <EditText
+            android:id="@+id/wisValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/chaLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHA" />
+
+        <EditText
+            android:id="@+id/chaValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/profLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proficiency" />
+
+        <EditText
+            android:id="@+id/profValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:text="2" />
+
+    </TableRow>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:onClick="launchRoller"/>
 
-</android.support.constraint.ConstraintLayout>
+</TableLayout>
